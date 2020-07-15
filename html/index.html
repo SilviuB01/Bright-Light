@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Bright Light</title>
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="apple-touch-icon" sizes="180x180" href="../icons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="../icons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="../icons/favicon-16x16.png">
+        <link rel="manifest" href="../icons/site.webmanifest">
+        <link rel="mask-icon" href="../icons/safari-pinned-tab.svg" color="#5bbad5">
+        <link rel="shortcut icon" href="../icons/favicon.ico">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="msapplication-config" content="../icons/browserconfig.xml">
+        <meta name="theme-color" content="#ffffff">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400&display=swap" rel="stylesheet">
+        <meta name="description" content="Bright Light">
+        <meta name="keywords" content="bright, light, lamp, handmade">
+        <meta name="author" content="SilviuB">
+    </head>
+    <body>
+        <header id="header">
+            <img id="header-img"
+                src="../images/logo.svg"
+                alt="Company Logo"
+            >
+            <p>Bright Light</p>
+            <nav id="nav-bar">
+                <ul>
+                    <li><a class="nav-link" href="#ourProducts">Our Products</a></li>
+                    <li><a class="nav-link" href="#manufacturing">How We Craft</a></li>
+                    <li><a class="nav-link" href="#prices">Prices</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section id="hero">
+                <h1>Handmade Lighting Solutions For Your Home</h1>
+                <form id="form" action="https://www.freecodecamp.com/email-submit">
+                    <input
+                        name="email"
+                        type="email"
+                        id="email"
+                        placeholder="Please enter your email address"
+                        required
+                    >
+                    <input
+                        type="submit"
+                        id="submit"
+                        value="Find Out More"
+                    >
+                </form>
+            </section>
+
+            <section id="ourProducts">
+                <div class="features">
+                    <img class="icon"
+                        src="../images/smart.svg"
+                        alt="Smart Connectivity Icon"
+                    >
+                    <h3>Smart Enabled</h3>
+                    <p class="description">Our lives are permanently connected. Why stop for something as important as your lighting? All our products include smart connectivity, so no matter if you read or want to sleep, control is at your fingertips.</p>
+                </div>
+                <div class="features">
+                    <img class="icon"
+                        src="../images/green.svg"
+                        alt="Environment Friendly Icon"
+                    >
+                    <h3>Always Green</h3>
+                    <p class="description">We love the environment as much as you do. And to prove this, we only use ethically sourced materials from local, family run suppliers, eco-friendly paints and the most energy efficient lightbulbs on the market.</p>
+                </div>
+                <div class="features">
+                    <img class="icon"
+                        src="../images/handmade.svg"
+                        alt="Made By Hand icon"
+                    >
+                    <h3>Handmade With love, For You</h3>
+                    <p class="description">We make everything by hand. From the metal sheet through the process of rolling, shaping, painting, curing and inspecting and all the steps in-between, your solution experienced the loving touch of the family here at Bright Light.</p>
+                </div>
+            </section>
+
+            <section id="manufacturing">
+                <div class="features">
+                    <img class="icon"
+                        src="../images/work.svg"
+                        alt="Made By Hand icon"
+                    >
+                    <h3>Want to see how we work?</h3>
+                    <p class="description">Look no further than the below video.</p>
+                    <p class="description">Although a small sample of our entire process, it will give you a good idea about our solutions.</p>
+                    <iframe
+                        id="video"
+                        src="https://www.youtube.com/embed/P_3cEPC7m5c"
+                        frameborder="0"
+                        autoplay="0"
+                        allowfullscreen=true
+                        width="450" 
+                        height="315"
+                    ></iframe>
+                </div>
+            </section>
+            <div class="features">
+                <img class="icon"
+                    src="../images/tag.svg"
+                    alt="Made By Hand icon"
+                >
+                <h3>Choose your pack below to get started</h3>
+            </div>
+            <section id="prices">
+                <div id=choosePack>
+                    <div class="size">One Room</div>
+                    <h4>£250</h4>
+                    <ol class="benefits">
+                        <li>Most Accessible</li>
+                        <li>Includes all fittings</li>
+                        <li>You choose the room</li>
+                        <li>Five years warranty</li>
+                    </ol>
+                    <button class="btn">Choose Me</button>
+                </div>
+                <div id=choosePack>
+                    <div class="size">All Rooms</div>
+                    <h4>£650</h4>
+                    <ol class="benefits">
+                        <li>Mid Tier</li>
+                        <li>Includes all fittings</li>
+                        <li>Most popular</li>
+                        <li>Ten years warranty</li>
+                    </ol>
+                    <button class="btn">Choose Me</button>
+                </div>
+                <div id=choosePack>
+                    <div class="size">Whole Home</div>
+                    <h4>£1250</h4>
+                    <ol class="benefits">
+                        <li>High Tier</li>
+                        <li>Includes all fittings</li>
+                        <li>Home, driveway and garden</li>
+                        <li>Life warranty</li>
+                    </ol>
+                    <button class="btn">Choose Me</button>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <ul>
+                <li><a href="#">Environmental Policy</a></li>
+                <li><a href="#">Terms and Conditions</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Patent information</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <small>Copyright &copy; 2020 Bright Light. All Rights Reserved</small>
+        </footer>
+    </body>
+</html>
